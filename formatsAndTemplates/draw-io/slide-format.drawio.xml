@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="6">
     <diagram id="1-1-title-slide" name="title-slide-1">
-        <mxGraphModel dx="1304" dy="630" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="p1-0"/>
                 <mxCell id="p1-1" parent="p1-0"/>
@@ -20,7 +20,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="1-2-section-divider" name="section-divider-1">
-        <mxGraphModel dx="2173" dy="1050" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="p2-0"/>
                 <mxCell id="p2-1" parent="p2-0"/>
@@ -34,7 +34,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="1-3-title-and-body" name="title-and-body-1">
-        <mxGraphModel dx="2173" dy="1050" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="p3-0"/>
                 <mxCell id="p3-defs" parent="p3-0" style="locked=1;" value="Equation colours"/>
@@ -55,7 +55,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="slide-format" name="every-construct-1">
-        <mxGraphModel dx="2173" dy="1050" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="L0"/>
                 <mxCell id="LD" parent="L0" style="locked=1;" value="Equation colours"/>
@@ -159,7 +159,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="1-5-text-with-mathematics" name="text-with-mathematics-1">
-        <mxGraphModel dx="2677" dy="1097" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="p5-0"/>
                 <mxCell id="p5-defs" parent="p5-0" style="locked=1;" value="Equation colours"/>
@@ -207,7 +207,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="text-with-mathematics-2" id="Av_GfrzxETuXMI_izi8V">
-        <mxGraphModel dx="2677" dy="1097" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="XJcQbYN_5dyGYyAC7l0g-0"/>
                 <mxCell id="XJcQbYN_5dyGYyAC7l0g-1" parent="XJcQbYN_5dyGYyAC7l0g-0" style="locked=1;" value="Equation colours"/>

@@ -324,6 +324,7 @@ The file it writes for a presentation inside this repository reads:
     { "file": "${workspaceFolder}/../tools/draw-io/edit-at-click.plugin.js" },
     { "file": "${workspaceFolder}/../tools/draw-io/list-styles.plugin.js" },
     { "file": "${workspaceFolder}/../tools/draw-io/language-check.plugin.js" },
+    { "file": "${workspaceFolder}/../tools/draw-io/view-position.plugin.js" },
     { "file": "${workspaceFolder}/../tools/draw-io/media-bar.js" },
     { "file": "${workspaceFolder}/../tools/draw-io/media.plugin.js" },
     { "file": "${workspaceFolder}/.vscode/deck-folder.plugin.js" }
@@ -352,6 +353,8 @@ The Undo of the drawing after the edit takes back the whole edit, the choice inc
 The plugin draws the triangle and the dash in the colour and the size of the points of the Keynote deck of the template, as its header says.
 The build copies the rules of the markers into the SVG of each slide with a list.
 `language-check.plugin.js` underlines the spelling and the grammar of the label being edited, as the section on spelling below says.
+`view-position.plugin.js` leaves the position of the view, the attributes `dx` and `dy` of `<mxGraphModel>`, out of every page that the editor saves, so a scroll alone changes no section file.
+A file then opens at the default view of the editor.
 `media-bar.js` holds the bars of controls of a video and of a page, which `media.plugin.js` uses and the HTML file shares, so it loads before `media.plugin.js`.
 `media.plugin.js` plays the video of a shape with the property `video` and shows the page of a shape with the property `html`, inside the shape, as the HTML file shows them.
 `deck-folder.plugin.js` tells `media.plugin.js` the folder of the presentation, as the paragraphs below say.
@@ -423,7 +426,7 @@ VS Code serves the files of the folder it has open, so a video plays when it lie
 A shape whose video does not play shows its fill, and *Developer: Open Webview Developer Tools* in the command palette shows the failed address in its console.
 
 To edit the template or the tools, open this repository at its root instead.
-Its own `.vscode/settings.json`, which git leaves out, holds the same associations and the seven plugins at `${workspaceFolder}/tools/draw-io/`, where `${workspaceFolder}` is the repository root:
+Its own `.vscode/settings.json`, which git leaves out, holds the same associations and the eight plugins at `${workspaceFolder}/tools/draw-io/`, where `${workspaceFolder}` is the repository root:
 
 ```jsonc
 {
@@ -436,7 +439,8 @@ Its own `.vscode/settings.json`, which git leaves out, holds the same associatio
     { "file": "${workspaceFolder}/tools/draw-io/click-through.plugin.js" },
     { "file": "${workspaceFolder}/tools/draw-io/edit-at-click.plugin.js" },
     { "file": "${workspaceFolder}/tools/draw-io/list-styles.plugin.js" },
-    { "file": "${workspaceFolder}/tools/draw-io/language-check.plugin.js" }
+    { "file": "${workspaceFolder}/tools/draw-io/language-check.plugin.js" },
+    { "file": "${workspaceFolder}/tools/draw-io/view-position.plugin.js" }
   ]
 }
 ```

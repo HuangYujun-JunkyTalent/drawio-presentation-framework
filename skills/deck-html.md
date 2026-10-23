@@ -63,6 +63,9 @@ An edge whose style holds `flowAnimation=1` moves in the HTML file.
 A deck is a git repository of its own, nested in this repository, as `formatsAndTemplates/draw-io/README.md` says.
 VS Code plays the videos of a deck when it has the folder of the deck open and the `.vscode/settings.json` of the deck loads `../tools/draw-io/media-bar.js`, then `../tools/draw-io/media.plugin.js`, and `.vscode/deck-folder.plugin.js`.
 A settings file that lacks an entry of `EDITOR_PLUGINS` of `tools/draw-io/build-slides.py` gets it by hand, in the order of that list, because the mode `vscode` replaces no settings file.
+The entry of `view-position.plugin.js` keeps the editor from writing the position of the view, the attributes `dx` and `dy` of `<mxGraphModel>`, into a page that it saves, and no option of draw.io or of the extension does the same.
+A page that the editor does not show keeps the XML of its file.
+A deck that gets the entry by hand therefore has `dx` and `dy` removed once from every `<mxGraphModel>` of its section files, with no other change to the files.
 
 1. When the deck has no `.vscode/settings.json`, run `python3 ../tools/draw-io/build-slides.py vscode --colours <colour configuration>` in the folder of the deck.
    A deck that `init` started has the file already.

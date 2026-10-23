@@ -646,8 +646,8 @@ DECK_IGNORED = ("build/", ".DS_Store", FOLDER_PLUGIN, ".claude/settings.local.js
 # The plugins of the editor beside this script, which every presentation loads.
 EDITOR_PLUGINS = ("mathjax-definitions.plugin.js", "label-colours.plugin.js",
                   "single-page.plugin.js", "click-through.plugin.js", "edit-at-click.plugin.js",
-                  "list-styles.plugin.js", "language-check.plugin.js", "media-bar.js",
-                  "media.plugin.js")
+                  "list-styles.plugin.js", "language-check.plugin.js", "view-position.plugin.js",
+                  "media-bar.js", "media.plugin.js")
 COLOUR_SETTINGS = ("colorNames", "presetColors", "customColorSchemes")
 
 

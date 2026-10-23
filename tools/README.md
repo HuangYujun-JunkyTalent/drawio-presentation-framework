@@ -44,6 +44,7 @@ The section on starting a presentation of the same README names the version of N
 | `edit-at-click.plugin.js` | the plugin that keeps the view still when a double-click starts editing a label, and puts the caret where the double-click was instead of selecting the whole label |
 | `language-check.plugin.js` | the plugin that underlines the spelling and the grammar of the label being edited, from LanguageTool on this machine, with its fixes on the right button |
 | `deck_language_check.py` | the check of the spelling and the grammar of every label of a deck, `npm run check`, which reads the rules of `language-check.plugin.js` |
+| `view-position.plugin.js` | the plugin that leaves the position of the view, `dx` and `dy`, out of every page that the editor saves, so a scroll alone changes no section file |
 | `list-styles.plugin.js` | the plugin that gives a list made with the list buttons of the editor the template's style of its level, and adds the menu List style beside those buttons |
 | `media-bar.js` | the bars of controls of a video and of an embedded page, with the field of the time, which the editor loads before `media.plugin.js` and the build writes into the HTML file |
 | `media.plugin.js` | the plugin that plays the video and shows the HTML page of a cell inside its shape, and gives the selected one a bar of controls, which every presentation loads from here |
@@ -52,4 +53,4 @@ The section on starting a presentation of the same README names the version of N
 | `deck_pictures.py` | the writing of a picture `assets/<name>` into its cell as data, which the build and `embed-pictures.py` share |
 | `make-color-config.py` | writes a colour configuration of the editor from the colours a `.drawio` file uses |
 
-`../formatsAndTemplates/draw-io/README.md` gives the commands of a presentation, the page names, the formulas, the links and the videos, the set-up of VS Code per presentation with the nine plugins, and the warnings of the build.
+`../formatsAndTemplates/draw-io/README.md` gives the commands of a presentation, the page names, the formulas, the links and the videos, the set-up of VS Code per presentation with the ten plugins, and the warnings of the build.
