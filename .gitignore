@@ -1,0 +1,18 @@
+# The repository tracks the files that every presentation shares, which the lines with ! name,
+# and ignores every other entry at its root, so a presentation, a repository of its own nested
+# here, is left out without a line of its own.
+/*
+!/.gitignore
+!/README.md
+!/GOALS.md
+!/LICENSE
+!/LICENSE-EXCEPTION.md
+!/CONTRIBUTING.md
+!/formatsAndTemplates/
+!/skills/
+!/tools/
+
+# Each machine makes these files for itself inside the tracked folders.
+.DS_Store
+node_modules/
+__pycache__/

@@ -1,0 +1,8 @@
+{
+  "name": "drawio-presentation-framework-tools",
+  "private": true,
+  "description": "Playwright, installed once for every draw.io presentation of this repository.",
+  "devDependencies": {
+    "playwright-chromium": "^1.44.0"
+  }
+}
